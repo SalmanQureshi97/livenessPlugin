@@ -1,0 +1,17 @@
+{
+  "name": "FaceoffLivenessPlugin",
+  "version": "0.0.1",
+  "description": "Test Plugin for Unikew/faceoff/liveness/0.0.0.1.5",
+  "cordova": {
+    "id": "com.unikrew.faceoff",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Salman Qureshi/ Manish Kumar",
+  "license": "MIT"
+}
