@@ -59,7 +59,15 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     // ML Kit dependencies
-    implementation 'com.unikrew.faceoff:liveness:0.0.0.1.5'
+    implementation 'com.unikrew.faceoff:liveness:0.0.0.1.7'
+
+    implementation ("com.google.firebase:firebase-ml-vision:19.0.2"){
+        force:true
+    }
+
+    implementation ("com.google.firebase:firebase-ml-vision-face-model:17.0.2"){
+        force:true
+    }
 
 
 
